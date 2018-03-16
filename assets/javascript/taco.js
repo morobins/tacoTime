@@ -11,7 +11,7 @@ var queryURL = "https://api.edamam.com/search?q=margarita&app_id=e4a1878b&app_ke
 
 			console.log(response);
 			$(".margarita").text(response.hits[0].recipe.label);
-			$(".margarita-source").text("This recipe is from " + response.hits[0].recipe.source);
+			$("#margarita-source").text("This recipe is from " + response.hits[0].recipe.source);
 
 		});
 
