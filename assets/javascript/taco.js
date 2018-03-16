@@ -13,6 +13,18 @@ var queryURL = "https://api.edamam.com/search?q=chicken&app_id=e4a1878b&app_key=
 
 		});
 
+		var queryURL2 = "https://www.googleapis.com/youtube/v3/playlists?channelId=UC7bX_RrH3zbdp5V4j5umGgw&key=AIzaSyD5gZvasVNbDmW7Pv1IP6_Q_rPPCvEDriI&part=snippet,contentDetails";
+
+
+		$.ajax({
+			url: queryURL2,
+			method: "GET"
+		}).then(function(response) {
+
+			console.log(response);
+
+		});
+
 
 
 
