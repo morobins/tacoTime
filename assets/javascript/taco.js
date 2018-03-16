@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('#wrapper').fullpage();
 
-var queryURL = "https://api.edamam.com/search?q=chicken&app_id=e4a1878b&app_key=0e63bfc5291dfe20fad787020026c8ad";
+var queryURL = "https://api.edamam.com/search?q=margarita&app_id=e4a1878b&app_key=0e63bfc5291dfe20fad787020026c8ad";
 
 
 		$.ajax({
@@ -10,6 +10,8 @@ var queryURL = "https://api.edamam.com/search?q=chicken&app_id=e4a1878b&app_key=
 		}).then(function(response) {
 
 			console.log(response);
+			$(".margarita").text(response.hits[0].recipe.label);
+			$(".margarita-source").text(response.hits[0].recipe.source);
 
 		});
 
@@ -19,9 +21,9 @@ var queryURL = "https://api.edamam.com/search?q=chicken&app_id=e4a1878b&app_key=
 		$.ajax({
 			url: queryURL2,
 			method: "GET"
-		}).then(function(response) {
+		}).then(function(youTube) {
 
-			console.log(response);
+			console.log(youTube);
 
 		});
 
