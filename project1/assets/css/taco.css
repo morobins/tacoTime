@@ -1,0 +1,57 @@
+#videoPage {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+#card-holder {
+  width: 90%;
+  margin: 70px;
+}
+
+#page1 {
+  /* background-color: aquamarine; */
+  background-image: url("../images/Margarita.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page2 {
+  /* background-color: blue; */
+  background-image: url("../images/Taco.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page3 {
+  /* background-color: purple; */
+  background-image: url("../images/Filling.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page4 {
+  /* background-color: pink; */
+  background-image: url("../images/Salsa.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page5 {
+  /* background-color: red; */
+  background-image: url("../images/Avocado.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
